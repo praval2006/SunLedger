@@ -1,0 +1,49 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# JavaScript dependencies and generated outputs
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Hardhat generated state and artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/ignition/deployments/
+
+# Local configuration, keys and runtime state
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Local OS files
+.DS_Store
+Thumbs.db
